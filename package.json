@@ -1,0 +1,39 @@
+{
+  "name": "pdf_tech",
+  "version": "0.1.0",
+  "description": "PDF Tech",
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "private": true,
+  "author": "David Schissler",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "7.4.4",
+    "core-js": "^2.6.5",
+    "es6-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/plugin-proposal-decorators": "7.4.4",
+    "@babel/plugin-proposal-export-namespace-from": "7.2.0",
+    "@babel/plugin-proposal-function-sent": "7.2.0",
+    "@babel/plugin-proposal-numeric-separator": "7.2.0",
+    "@babel/plugin-proposal-throw-expressions": "7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-syntax-import-meta": "7.2.0",
+    "@babel/plugin-transform-property-mutators": "^7.2.0",
+    "@babel/plugin-transform-runtime": "7.4.4",
+    "@babel/preset-env": "7.4.4",
+    "babel-loader": "8.0.5",
+    "entry-loader": "0.2.0",
+    "pdfjs-dist": "2.1.266",
+    "webpack": "4.31.0",
+    "webpack-cli": "3.3.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11"
+  ]
+}
